@@ -1,8 +1,10 @@
-from leons_functions import test_z
+import pdb
+import leons_functions
 import random
 import time
 import rpoems
 
+pdb.set_trace()
 
 corpus = rpoems.build_corpus(limit=2000)
 poem = rpoems.couplet_rhyming_poem(corpus)
@@ -17,3 +19,4 @@ print(random.randint(15, 2047))
 #print(resultVar)
 
 
+print(leons_functions.dice())
