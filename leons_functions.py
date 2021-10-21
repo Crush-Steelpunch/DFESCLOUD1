@@ -24,3 +24,10 @@ def printilikepies():
 
 def dice():
     return random.randint(0,6)
+
+def randint():
+    return 7
+
+
+def len():
+    print('Hi I am Len')
